@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
+
+.website_name {
+  text-align: center;
+  font-size: 20px;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.inputbox {
+  width: 30rem;
+  height: 2rem;
+  margin: 1rem;
+}
+
+#button {
+  box-shadow: 0px 0px 0px 2px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:10px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+img {
+  height: 20rem;
+  width: 15rem;
+}
+
+.movie_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+
+
